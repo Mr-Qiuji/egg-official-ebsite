@@ -8,6 +8,18 @@ class HomeController extends Controller {
 
     yield ctx.render('home.html', {});
   }
+
+  * itSupport() {
+    const { ctx } = this;
+
+    yield ctx.render('it-support.html', {});
+  }
+
+  * aboutUs() {
+    const { ctx } = this;
+
+    yield ctx.render('about.html', {});
+  }
 }
 
 module.exports = HomeController;

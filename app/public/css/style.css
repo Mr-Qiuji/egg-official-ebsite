@@ -884,6 +884,11 @@ label input[type=radio] {
     color: #171717;
 }
 
+.lawFirm--about-text .p2, .lawFirm--about-text .p2:first-child  {
+  font-size: 18px;
+  color: #4b4b4b;
+}
+
 
 /* 5.2: About Image */
 .lawFirm--about-image .lawFirm--about-image-person img {
@@ -1085,6 +1090,18 @@ label input[type=radio] {
 }
 .lawFirm--internship .lawFirm--internship-text h2 {
   padding: 10px 0;
+}
+.lawFirm--internship.simple-internship {
+  background: #f4f7fc;
+}
+.lawFirm--internship.simple-internship .lawFirm--internship-text {
+  text-align: center;
+}
+.lawFirm--internship.simple-internship .lawFirm--internship-text h1,
+.lawFirm--internship.simple-internship .lawFirm--internship-text h2,
+.lawFirm--internship.simple-internship .lawFirm--internship-text p,
+.lawFirm--internship.simple-internship .lawFirm--internship-text p2 {
+  color: #333;
 }
 
 /*=============================================
