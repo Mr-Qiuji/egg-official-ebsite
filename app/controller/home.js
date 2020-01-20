@@ -20,6 +20,24 @@ class HomeController extends Controller {
 
     yield ctx.render('about.html', {});
   }
+
+  * managedServices() {
+    const { ctx } = this;
+
+    yield ctx.render('managed-services.html', {});
+  }
+
+  * residentialSupport() {
+    const { ctx } = this;
+
+    yield ctx.render('residential-support.html', {});
+  }
+
+  * desktopUserSupport() {
+    const { ctx } = this;
+
+    yield ctx.render('desktop-user-support.html', {});
+  }
 }
 
 module.exports = HomeController;

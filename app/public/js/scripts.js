@@ -413,9 +413,9 @@
 
     /* 10: Preloader
     ==============================================*/
-    $(window).on('load', function () {
-        $('.preloader').fadeOut(2000);
-    });
+    // $(window).on('load', function () {
+    //     $('.preloader').hide();
+    // });
 
     /* 09: Back to Top
     ==============================================*/
