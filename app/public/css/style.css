@@ -507,6 +507,9 @@ label input[type=radio] {
 .lawFirm--logo a {
     font-size: 30px;
     color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* 2.2: Nav Menu */
