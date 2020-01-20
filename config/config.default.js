@@ -27,13 +27,13 @@ module.exports = appInfo => {
         '.html': 'nunjucks',
       },
     },
-    cluster: {
-      listen: {
-        path: '',
-        port: 80,
-        hostname: '0.0.0.0',
-      },
-    },
+    // cluster: {
+    //   listen: {
+    //     path: '',
+    //     port: 80,
+    //     hostname: '0.0.0.0',
+    //   },
+    // },
   };
 
   return {
